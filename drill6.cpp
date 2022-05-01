@@ -3,8 +3,8 @@
 
 // Some symbolic constants for clarity
 constexpr char number = '8';
-constexpr char quit = 'x'; // second task
-constexpr char print = '=';
+constexpr char quit = 'x'; // chapter 6 task 2
+constexpr char print = '='; // chapter 6 task 3
 constexpr char name = 'a';
 constexpr char let = 'L';
 constexpr char result = ';';
@@ -187,7 +187,7 @@ void calculate()
 int main() 
 try {
 	cout<<"Welcome to our simple calculator.\nPlease enter expressions using floating-point numbers."<<endl; //chapter 6 task 4
-	cout << "The operators available are: '+,-,*,/' \n";
+	cout << "The operators available are: '+,-,*,/' \n"; // chapter 6 task 5
 	define_name("pi", 3.1415926535);
 	define_name("e", 2.7182818284);
 	
