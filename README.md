@@ -1,2 +1,2 @@
 # HLPL
-Kamalatdin's drills. 
+Kamalatdin Kdirniyazov's drills. 
