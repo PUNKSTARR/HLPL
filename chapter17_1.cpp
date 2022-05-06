@@ -62,12 +62,12 @@ int main()
 	
 	
 	int* ten_a2 = new int[10] {100, 101, 102, 103, 104, 105, 106, 107, 108, 109};//chapter 17, drill 5
-	print_array10(cout, ten_i2);
+	print_array10(cout, ten_a2);
 	//delete[] ten_i2 chapter 17, drill 9
 	
 	
 	int* eleven_a = new int[11] {100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110};//chapter 17, drill 6
-	print_array11(cout, eleven_i);
+	print_array11(cout, eleven_a);
 	//delete[] eleven_i; chapter 17, drill 9
 	
 	
