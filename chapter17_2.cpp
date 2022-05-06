@@ -15,7 +15,7 @@ int n = 7;
 int* p1 = &n;
 cout << "p1: " << p1 << " " << " n: " << n << endl ;// chapter 17, drill 2
 
-int seven_i [7] {1, 2, 4, 8, 10, 12, 14};// chapter 17, drill 3
+int seven_i [7] {1, 2, 4, 8, 16, 32, 64};// chapter 17, drill 3
 int* p2 = seven_i;
 
 
@@ -34,10 +34,10 @@ print_array (cout, p2, 7);
 
 // Q 9 we didn't use any free space we used int which is in the stack 
 
-int ten_i [10] {1, 2, 4, 8, 10, 12, 14, 16, 18, 212};// chapter 17, drill 10
+int ten_i [10] {1, 2, 4, 8, 16, 32, 64, 128, 256,512};// chapter 17, drill 10
 p1 = ten_i;
 
-int ten2_i [10] {1, 2, 4, 8, 10, 12, 14, 16, 18, 500};// chapter 17, drill 11
+int ten2_i [10] {1, 2, 4, 8, 16, 32, 64, 128, 256,512};// chapter 17, drill 11
 p2 = ten2_i;
 
 // chapter 17, drill 12
@@ -47,10 +47,10 @@ for (int i = 0; i<10; i++)
 		
 // chapter 17, drill 13
 
-vector<int> v_ten_i{1, 2, 4, 8, 10, 12, 14, 16, 18, 212};
+vector<int> v_ten_i{1, 2, 4, 8, 16, 32, 64, 128, 256,512};
 	p1 = &v_ten_i[0];
 	
-vector<int> v_ten_i2 {1, 2, 4, 8, 10, 12, 14, 16, 18, 500};
+vector<int> v_ten_i2 {1, 2, 4, 8, 16, 32, 64, 128, 256,512};
 	p2 = &v_ten_i2[0];
 	
 
