@@ -3,7 +3,7 @@
 template <typename T>//chapter 19, drill 1
 struct S
 {
-private://chapter 19, drill 17
+private://chapter 19, drill 7
 	T val;
 public :
 	
