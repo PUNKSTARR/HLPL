@@ -82,18 +82,6 @@ ostream& operator<<(ostream& os, const Date& date)
 				<< date.get_day() << ".";
 }
 
-bool operator==(const Date& a, const Date& b)
-{
-	return a.get_year() == b.get_year() &&
-			a.get_month() == b.get_month() &&
-			a.get_day() == b.get_day();
-}
-
-bool operator!=(const Date& a, const Date& b)
-{
-	return !(a==b);
-}
-
 int main()
 try {
 
